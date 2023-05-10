@@ -15,3 +15,11 @@ G…]()
 ![Capture2](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/d6a82211-d0d3-4b0b-b61e-083d1077dd84)
 ![Capture8](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/ad888805-2951-4df8-ab4a-65359e6e79b1)
 
+
+![Capture5](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/bb7c3d40-a610-459c-9dc5-254e5a99ab53)
+![Capture6](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/2dfeb80c-ad2e-46cf-9ce7-98f2a56dc1ca)
+![Capture3](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/5a696565-7130-47bf-b762-3fbe3860e995)
+![Capture18](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/a7af30bc-eaff-4e8d-a582-f72da09f2bc6)
+![Capture4](https://github.com/mssaad/fully-tourism--app_TOUR-EG/assets/127936090/d49e5d32-e10a-477d-8f18-53860dff1988)
+
+
