@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Molokhia"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/greenfood"
+            android:layout_width="wrap_content"
+            android:layout_height="328dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/molokhia"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btfood"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Add to card "
+            android:textColor="@color/grey_200" />
+
+        <RatingBar
+            android:id="@+id/second_ratingbar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="96dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-10dp"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="@color/Yellow"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            app:layout_constraintStart_toStartOf="@id/second_subtitle"
+            app:layout_constraintTop_toBottomOf="@id/second_subtitle"
+            tools:targetApi="lollipop" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+           android:text="Molokhia
+
+In our home Molokhia is indeed a love story when it is there on the table everyone gets excited about dinner. I make Molokhia almost weekly, it is my kids' favorite thing to eat with rice.
+
+Almost everyone I know loves Molokhia and it is a mother's secret in Egypt to feed little kids other vegetables too. You see when kids pass their first year, and some people even do it earlier, we introduce the famous rice and Molokhia combo to them. 99.9% of the kids love it, after they get used to it Egyptian moms start their tricks. Put a pile of rice with Molokhia and hide anything in there. Broccoli, peas, carrots, beans.... and so on. Just make sure to cut them into small pieces and the kids will gladly lick their plates. Of course when they get older they will start to object, but at least they got something and you'll feel good about their dinners :).
+
+Mulukhiyah is cooked with lots of garlic and coriander and that's probably why I do not like to give it to my kiddos before they reach 13-14 months old as it might give them gases.
+
+In Egypt we usually buy fresh green Molokhia leaves that looks like mint leaves but bigger, then we use a special curved sort of knife to mince it manually until it is very very fine like this one below."
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+

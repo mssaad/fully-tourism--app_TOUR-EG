@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sliderimageActivity"
+    android:background="@color/white"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!-- set layout for slider -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+
+                >
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="401dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_search_view"
+            android:elevation="20dp"
+            android:queryHint="Search here..."
+            app:layout_constraintEnd_toStartOf="@id/guideline2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            tools:targetApi="lollipop"
+            android:layout_alignParentRight="true" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/greenfood"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/egyptiangreenfood"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/grenfood"
+
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      Greenfood "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-260dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+
+
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/rice"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/rice"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="    EgyptRice "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="171dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/egyptiankoshary"
+
+
+                android:layout_width="205dp"
+                android:layout_height="301dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/egyptiankoshary"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/koshary"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="220dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint="      koshary  "
+
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/White"
+                android:background="#99141414"
+
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="182dp"
+            android:layout_height="265dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-270dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/Molokhia"
+
+
+                android:layout_width="178dp"
+                android:layout_height="275dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/molokhia"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/molokhia"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="220dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint="      Molokhia "
+
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/White"
+                android:background="#99141414"
+
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/egyptiantraditional"
+
+
+                android:layout_width="181dp"
+                android:layout_height="282dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/egyptiantraditional"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/kofta"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="  egyptiantfood "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/foul"
+
+
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/foodfoul"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/foodfoul"
+                android:layout_width="218dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="220dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="     egyptianfoul "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

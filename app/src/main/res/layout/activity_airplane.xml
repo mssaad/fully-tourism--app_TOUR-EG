@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinnerDest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="259dp"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt"
+        android:spinnerMode="dialog" />/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="447dp"
+        android:text="Destination"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:text="Deprature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerDest"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:id="@+id/spinnerDep"
+
+        android:layout_alignLeft="@+id/spinnerDest"
+        android:layout_alignStart="@+id/spinnerDest"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt"
+        android:spinnerMode="dialog" />/>
+
+    <TextView
+        android:text="From"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView4"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        android:layout_below="@+id/spinnerDep"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="Till"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        android:layout_alignBaseline="@+id/dateAnd"
+        android:layout_alignBottom="@+id/dateAnd"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateAnd"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/images55" />
+
+    <EditText
+        android:id="@+id/dateStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Select Date..."
+
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/spinnerDep"
+        android:layout_alignStart="@+id/spinnerDep" />
+
+    <EditText
+        android:id="@+id/dateAnd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Select Date..."
+
+        android:layout_below="@+id/dateStart"
+        android:layout_alignLeft="@+id/dateStart"
+        android:layout_alignStart="@+id/dateStart" />
+
+    <Button
+        android:id="@+id/bBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="123dp"
+        android:onClick="Book_it"
+        android:text="Book it" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/plaan" />
+
+</RelativeLayout>

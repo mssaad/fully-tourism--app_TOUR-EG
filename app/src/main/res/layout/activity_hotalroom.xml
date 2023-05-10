@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotaldetails"
+    android:background="@drawable/prymideshotal"
+    android:transitionName="background_image_transition"
+
+    tools:targetApi="LOLLIPOP">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99414141"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-87dp">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/second_back_arrow"
+        android:layout_width="47dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="356dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#99414141"
+
+        app:srcCompat="@drawable/ic_back_arrow" />
+
+
+    <TextView
+        android:id="@+id/second3"
+        android:layout_width="383dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="18dp"
+        android:text=" Wlcome to THE prymides Hotel, Casino &amp; SkyPod"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Thinkes for booking "
+        android:textColor="@color/white"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/second_subtitle"
+        android:layout_width="387dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:alpha="0.5"
+        android:text="Top of the World is known as one of the most romantic restaurants in the city. It offers an intimate dining setting paired with an extravagant view of the entire city, all encompassed in 360-degree ..."
+        android:textColor="@color/white"
+
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/second_title"
+        app:layout_constraintTop_toBottomOf="@+id/second_title" />
+
+    <RatingBar
+        android:id="@+id/second_ratingbar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="36dp"
+        android:max="5"
+        android:numStars="5"
+        android:progressTint="@color/Yellow"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="@id/second_subtitle"
+        app:layout_constraintTop_toBottomOf="@id/second_subtitle"
+        tools:targetApi="lollipop" />
+    <TextView
+        android:id="@+id/second_rating_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="4.75"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/second_ratingbar"
+        app:layout_constraintTop_toBottomOf="@id/second_subtitle"/>
+
+    <TextView
+        android:id="@+id/second_rating_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="(510)"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/second_rating_number"
+        app:layout_constraintTop_toTopOf="@id/second_rating_number" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlogout"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_alignEnd="@+id/Faccount"
+        android:layout_alignRight="@+id/Faccount"
+        android:layout_gravity="center"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bt_uisquare"
+        android:backgroundTint="@color/Black"
+        android:backgroundTintMode="multiply"
+        android:gravity="center"
+        android:text="Log_out"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        app:backgroundTint="@color/blue"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Faccount"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnback"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_alignEnd="@+id/Faccount"
+        android:layout_alignRight="@+id/Faccount"
+        android:layout_gravity="center"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/bt_uisquare"
+        android:backgroundTint="@color/Black"
+        android:backgroundTintMode="multiply"
+        android:gravity="center"
+        android:text="back to home "
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        app:backgroundTint="@color/blue"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Faccount"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/seconf_arrow_up"
+        android:layout_width="68dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_up_arrow"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/more_details"
+        android:layout_width="76dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="More Details"
+        android:textColor="@color/white"
+
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seconf_arrow_up"
+        app:layout_constraintVertical_bias="0.547" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

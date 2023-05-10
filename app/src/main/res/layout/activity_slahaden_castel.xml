@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlahadenCastel"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="411dp"
+            android:layout_height="257dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/slahaldencastel"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Located near the archaeological fortress of Babylon, the Congregation for Religions in Ancient Egypt houses the Amr Ibn al-As Mosque, the Hanging Church, the Temple of Ben Sorry the Jew, and a number of other churches, including: mary gerges church and grotto, the Church of the Virgin Mary, the Holy Grotto and the Holy Well, the Monastery of The Girls Nuns, and the Church of St. Barbara.
+
+The area dates back to the ancient Pharaonic period and was called 'Ghari-Aha' , the place where the fighting continued, and next to it was a temple of the idol Ozer, which disappeared,"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

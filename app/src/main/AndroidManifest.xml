@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tour">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".hurgadaActivity"></activity>
+        <activity android:name=".marsaalmplaceActivity" />
+        <activity android:name=".sharmplaceActivity" />
+        <activity android:name=".dehabpalceActivity" />
+        <activity android:name=".luoxer_roomActivity" />
+        <activity android:name=".infoBeforcomingegytpActivity" />
+        <activity android:name=".dehabActivity" />
+        <activity android:name=".shramelsheikhActivity" />
+        <activity android:name=".mmarsaalmaActivity" />
+        <activity android:name=".roomaswanActivity" />
+        <activity android:name=".creatacountforhotalActivity" />
+        <activity android:name=".hotalroomActivity" />
+        <activity android:name=".saftyandsecrity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".Molokhia" />
+        <activity android:name=".foul" />
+        <activity android:name=".kofta" />
+        <activity android:name=".koshary" />
+        <activity android:name=".Rice" />
+        <activity android:name=".greenfood" />
+        <activity android:name=".HighDam" />
+        <activity android:name=".HatshepsutTemple" />
+        <activity android:name=".SlahadenCastel" />
+        <activity android:name=".AlmoezStreet" />
+        <activity android:name=".museum" />
+        <activity android:name=".cairotower" />
+        <activity android:name=".luxourActivity" />
+        <activity android:name=".pyrmides22Activity" />
+        <activity android:name=".aswanActivity" />
+        <activity android:name=".airplane" />
+        <activity android:name=".Luxor2" />
+        <activity android:name=".Musicpage" />
+        <activity android:name=".rate" />
+        <activity android:name=".setting" />
+        <activity android:name=".music" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".readseaActivity" />
+        <activity android:name=".murenaActivity" />
+        <activity android:name=".NoarthCoastActivity" />
+        <activity android:name=".castelActivity" />
+        <activity android:name=".AbusimbleActivity" />
+        <activity android:name=".prymidesActivity" />
+        <activity android:name=".places" />
+        <activity android:name=".foodActivity" />
+        <activity android:name=".food" />
+        <activity android:name=".hotaldetails" />
+        <activity android:name=".hotalbooking" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".sliderimageActivity"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".FoodDetails" />
+        <activity android:name=".quran" />
+        <activity android:name=".Ramdan" />
+        <activity
+            android:name=".prymids2"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

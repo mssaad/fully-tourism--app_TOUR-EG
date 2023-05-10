@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".greenfood"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/greenfood"
+            android:layout_width="wrap_content"
+            android:layout_height="328dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/egyptiangreenfood"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btfood"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Add to card "
+            android:textColor="@color/grey_200" />
+
+        <RatingBar
+            android:id="@+id/second_ratingbar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="96dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-30dp"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="@color/Yellow"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            app:layout_constraintStart_toStartOf="@id/second_subtitle"
+            app:layout_constraintTop_toBottomOf="@id/second_subtitle"
+            tools:targetApi="lollipop" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="or both. Falafel is a traditional food in Middle Eastern cuisine and most likely originated in Egypt. Usually served with bread, or wrapped in bread known as taboon; The word 'falafel' also often refers to the sandwich that is prepared in this way. Falafel balls are usually served with salads, pickled vegetables, hot sauce, and a plate of tahini. Falafel balls can also be eaten alone as a snack or served as part of an appetizer.
+
+It is made from dried legumes, soaked for a while in water, then ground, kneaded, seasoned, and then fried in hot oil in the form of discs. Falafel is of two types, either made from ground beans, as is the practice in Egypt, or from ground chickpeas, as is customary in the Levant and Sudan, or both beans and chickpeas mixed together. Falafel is fried manually or semi-hand using copper molds or using modern machines, as in Syria, Jordan, Palestine and Egypt is not common.
+
+Falafel is a common food eaten in the Middle East, and is now found all over the world as a meat substitute for vegetarians and a form of street food."
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cairotower"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/cairotower"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+
+            android:text="The Egyptian Arab Contractors Company worked on the renovation and restoration of the Cairo Tower, and the renovation process continued for two years started in 2006 and remained for the year 2008, and the total cost of this process was about 15 million pounds, and the renovation process included several things, the most important of which is the restoration of the concrete of this tower, in addition to the construction of three floors, the construction of an emergency ladder, an elevator dedicated to visitors, the work of changes and developments on the main entrance, the finishing of all the facades in it, and the placement of new lighting outside this tower."
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

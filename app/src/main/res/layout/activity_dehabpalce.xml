@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dehabpalceActivity"
+    android:background="@color/White"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="385dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/dahab"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+android:text="One of Dahab's most famous sites, the Blue Hole is considered the world's deadliest diving spot.
+But its infamous reputation has only boosted the impressive sinkhole's appeal to brave divers looking for an underwater Everest.
+Descending to a maximum depth of 328 feet and easily accessible from the shore, the Blue Hole, is shielded from the currents, so its waters are relatively calm.
+The conditions here are perfect for free divers keen to learn, as well as advanced divers looking to push their limits in a race against depth and lung capacity.
+While it's entirely possible to scuba dive safely in the Blue Hole, its notoriety is due to an infamous archway known as the Arch, which connects the site with the open sea.
+Scuba divers who seek out the Arch, located 184 feet below the surface, may succumb to narcosis, become disoriented, and ultimately run out of air.
+The diving spot's popularity has ultimately increased the destruction of its delicate marine ecosystem over the years.
+To quell the traffic here, a local group of divers have created an underwater museum filled with mammoth statues made of recycled materials, creating an artificial reef.
+The most impressive statue is a life-sized elephant weighing 700 kilograms that's gained the attention of countless tourists searching for a surreal underwater adventure.
+Attempting to dive all of Dahab's submerged sites in a week would be nearly impossible as there are so many stand out spots, ranging from reefs to the incredibly well-preserved S.S. Thistlegorm.
+Hit by a German bomber ship during World War II, this British Merchant Navy ship provides a rare underwater glimpse into history.
+There are also limitless options in shallower waters for snorkelers who may want to avoid crowded diving spots.
+Travelers can hike or trek by camel to Ras Abu Galum National Protectorate, which covers 400 square kilometers of coastline, and offers a better glance of pristine coral and marine life.
+The Three Pools dive site in nearby Akaba is also a safe bet for those keen to get lost in a kaleidoscope of colorful fish."
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

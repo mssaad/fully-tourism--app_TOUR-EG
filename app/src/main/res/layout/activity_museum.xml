@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".museum"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/nationalmuseuml"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+
+            android:text="   National museum of Egyptian civilization     Located near The Babylon Fort, the National Museum of Egyptian Civilization overlooks Ain Al-Sayera in the heart of the historic city of Fustat in Cairo's Ancient Egypt region. Laid in 2002 as one of the most important and largest archaeological museums in the world, the foundation stone is the first to be dedicated to the entire Egyptian civilization, where more than 50,000 artifacts will tell the stages of civilization's development from ancient times to modern times."
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

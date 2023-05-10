@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighDam"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="387dp"
+            android:layout_height="250dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/highdam"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+android:text="The High Dam is a water dam on the Nile River in southern Egypt, established during the era of Gamal Abdel Nasser and the Soviets participated in its construction. The High Dam greatly helped in controlling the flow of water and mitigating the effects of the Nile flood. Used to generate electricity in Egypt. The length of the dam is 3600 meters, the width of the base is 980 meters, the depth of the summit is 40 meters, and the height is 111 meters. The size of the dam’s body is 43 million cubic meters of cement, iron and other materials, and a water flow of up to 11,000 cubic meters of water can pass through the dam per second.
+
+The construction of the High Dam became a major goal for the Egyptian government in the aftermath of the Egyptian revolution in 1952, for the possibility of controlling flood waters, and harnessing the hydroelectric power that could be produced, and it was considered a focal point for industrialization in Egypt. The High Dam was built between 1960 and 1970. It aims to increase economic production by regulating the annual reservoir of the river, called the flood, and to provide and store water for agriculture, later, and to generate hydroelectric power. The dam had a significant impact on the economy and culture of Egypt during that stage."
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

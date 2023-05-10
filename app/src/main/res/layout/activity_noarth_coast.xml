@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prymidesActivity"
+    android:background="@color/White"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="396dp"
+            android:layout_height="244dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/okl"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="North Coast
+Once only considered as a favored destination of Cairene vacationers, the North Coast of Egypt has succeeded over the past few years in earning the reputation of a world-class sea resort, by catering to more exclusive lifestyles through beautiful and upscale tourist villages.
+Guests are flocking in from Europe and the Arab countries to this stretch of pristine coastline where the weather is a lot milder than it is in the top Red Sea coast destinations during summer. The area is dotted with five-star very luxurious resorts and villas, waiting to welcome those who want to escape the hustle and bustle of overcrowded mass tourism favorites. Moreover, the area offers all the needed facilities for you to practice your favorite water sports and spend some quality time on the Mediterranean Sea.
+In 1986, a Hellenistic-Roman town was discovered when the construction of the Marina Town in El-Alamein started. The area has been converted into an open-air museum.
+Nightlife is also booming in this part of the White Med; the Egyptian elite seem to consider the newly built resort towns of Porto Marina, Sidi Abdel Rahman and Marassi on this long stretch of paradise as the new and exclusive places to be in on week-ends and hot Saturday nights.
+How about experiencing a foretaste of the exclusive North Coast of Egypt?"
+/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

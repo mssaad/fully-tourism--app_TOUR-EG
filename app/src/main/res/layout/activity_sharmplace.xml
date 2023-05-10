@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sharmplaceActivity"
+    android:background="@color/White"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="385dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/sharm"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="400dp"
+            android:layout_height="1430dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="What to do in Sharm el-Sheikh
+1. Ras Mohammed National Park: Feast Your Eyes
+At the tip of the Sinai Peninsula, this gem of a national park awaits. It is the country's finest park and known worldwide as an incomparable diving zone. The Red Sea and Gulf of Suez are filled with rich coral reefs teeming with diverse species that create a kaleidoscope of colors. The Yolanda and Shark Reefs are the most popular, and further from shore, you may even catch dolphins frolicking through the water too! Meanwhile, on land, the park is also the perfect place for a picnic and a swim.
+
+2. Naama Bay: Beach Town Galore
+Tourism here is based around this sparkling bay; its beach calls out to one and all as the ultimate recreation zone. On land, the surrounding resorts provide the comfort of beach chairs and umbrellas so that the sands are populated all day long by visitors basking in the sun. Out at sea a steady stream of boats is always coming and going against the blue horizon, a picturesque sight. And with everything available to rent you can join in too! Whichever way you choose to enjoy this beach is up to you.
+
+3. Saint Catherine's Monastery: Holy Ground
+Notable biblical events are believed to have taken place on this Peninsula, so it makes sense that one of the oldest active monasteries in the world still stands here today. Also known as the Sacred Monastery of the God-Trodden Mount Sinai, this holy location was built beside the peak where Moses reputedly received the Ten Commandments from God. Its expansive library of ancient manuscripts is second only to the Vatican's, the contents humbling to behold. From the ancient art to time-worn documents, this place is a historical gem.
+
+4. Tiran Island: The Ultimate Day Trip
+This island sits in the Straits of Tiran at the point where the Red Sea becomes the Gulf of Aqaba. Cruise through these marine crossroads to reach this unique wonderland - a paradise for scuba diving. The boat ride alone is worth the experience, and upon arrival, pristine beaches and crystal blue waters abound. Beneath the surface a whole other world awaits, brimming with exotic creatures. Well-preserved Jackson Reef is a dynamic ecosystem, home to inhabitants like the manta ray and barracuda!
+
+5. Sharm Old Market: Souvenir Time!
+For a genuinely local experience, take a break from the resorts and beaches and head to this Old Market in the south of Sharm El-Sheikh. An open air mall, rows of shops line the streets. Shoes, handicrafts, artwork, jewelry - you name it, this is the place to find it. Window shopping is just as fun as choosing an item and haggling for it. Either way, a stroll through this market is memorable.
+
+Ras Mohammed National Park
+Naama Bay
+Saint Catherine's Monastery
+"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

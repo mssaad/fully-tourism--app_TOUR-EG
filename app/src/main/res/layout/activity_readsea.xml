@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".readseaActivity"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="385dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/readsea"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="
+              The City Of Hurghada Travel Guide
+The city of Hurghada is another major tourist attraction in Egypt. Hurghada is located on the Red Sea coast, almost 550 km from Cairo. Egyptians once called it Ghardaka, from which the name of the city was derived. Hurghada attracts more than 2.5 million visitors each year and brings more than 3 billion dollars to Egypt’s economy annually.
+
+
+
+Hurghada stretches for about 60 Km along the Red Sea coast and has more than 80,000 inhabitants. Most of these are immigrants from Upper Egypt who came seeking investment and work opportunities in the the newly developed sea resort. Hurghada today has more than 170 hotels and it is still developing.
+Hurghada and the Red Sea coast enjoy very moderate weather throughout the year, making it an ideal place for ocean sports. The average temperature from March to November ranges from 26C to 29C, and in the hottest summer months, the temperature can reach 33C. Water temperature is also very moderate, which makes it possible to practice diving throughout the year.
+
+
+
+The main tourist attraction in Hurghada is the marine life, with lots of coral and colorful fish, which are located very close to the shore. Hurghada has some of the finest coral in the world. If you like to practice diving, then Hurghada, or Sharm El-Sheikh, are your places to go."
+
+/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+

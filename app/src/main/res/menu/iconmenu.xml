@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/menu_home"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Home"/>
+
+    <item android:id="@+id/menu_music"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        android:title="music"/>
+
+  <item android:id="@+id/menu_setting"
+      android:icon="@drawable/ic_settings_black_24dp"
+      android:title="Setting"/>
+
+  <item android:id="@+id/menu_Rate"
+      android:icon="@drawable/ic_star_half_black_24dp"
+      android:title="rate"
+      />
+
+  <item android:id="@+id/About_Us"
+      android:icon="@drawable/ic_chat_bubble_black_24dp"
+      android:title="About_Us"
+      />
+
+  <item android:id="@+id/LOG_OUT"
+      android:icon="@drawable/ic_power_settings_new_black_24dp"
+      android:title="LOG_OUT"
+      />
+</menu>

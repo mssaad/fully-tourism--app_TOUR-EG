@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sliderimageActivity"
+    android:background="@color/white"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!-- set layout for slider -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+
+            >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+        </RelativeLayout>
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="401dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_search_view"
+            android:elevation="20dp"
+            android:queryHint="Search here..."
+            app:layout_constraintEnd_toStartOf="@id/guideline2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            tools:targetApi="lollipop"
+            android:layout_alignParentRight="true" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/place"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/desktop"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/places"
+
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      pyramids "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-260dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+
+
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/okl"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/NoarthCoast"
+                android:layout_width="184dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="     Noarth Coast "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="171dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/hhh"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/maklo55555"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/casteltext"
+                android:layout_width="158dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="220dp"
+                android:fontFamily="italic"
+
+
+                android:hint="      castel "
+                android:includeFontPadding="true"
+
+
+                android:textColorHint="@color/White"
+                android:background="#99141414"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="182dp"
+            android:layout_height="265dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-270dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/airplan"
+
+
+                android:layout_width="178dp"
+                android:layout_height="275dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/images"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="220dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint="       Abu simble "
+
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/White"
+                android:background="#99141414"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/marina"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/ss"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/Marina"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      Marina "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/eat"
+
+
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/readsea"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/readsea"
+                android:layout_width="216dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint="     read sea "
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/white"
+                android:background="#99141414"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/tower"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/cairotower"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/cairotower"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      cairotower "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/museum"
+
+
+                android:layout_width="202dp"
+                android:layout_height="272dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/nationalmuseuml"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/nationalmuseum"
+                android:layout_width="210dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      nmec  "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/almoez"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/almoezstreet"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/almoezstreet"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint=" AlmoezStreet "
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:background="#99141414"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/slahaden"
+
+
+                android:layout_width="202dp"
+                android:layout_height="272dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/slahaldencastel"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/slahadencastel"
+                android:layout_width="216dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint=" Qaitbay castel"
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/white"
+                android:background="#99141414"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/HighDam"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/highdam"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/highdam"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint=" High Dam "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/HatshepsutTemple"
+
+
+                android:layout_width="202dp"
+                android:layout_height="272dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/hatshepsuttemple"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/hatshepsuttemple"
+                android:layout_width="216dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint=" Hatshepsut Temple "
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/white"
+                android:background="#99141414"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/dehab"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/dahab"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/dehabb"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="      dehab "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/sharm"
+
+
+                android:layout_width="202dp"
+                android:layout_height="272dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/sharm"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/Sharm2"
+                android:layout_width="210dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="200dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint="     Sharm El-Sheikh  "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/marsaalma"
+
+
+                android:layout_width="178dp"
+                android:layout_height="264dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/marsahalam"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/marsahalam"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+
+
+                android:fontFamily="italic"
+
+                android:hint=" marsahalam "
+                android:includeFontPadding="true"
+
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:background="#99141414"
+                app:layout_constraintTop_toBottomOf="@+id/prymides33"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-250dp"
+
+            app:cardCornerRadius="50dp"
+
+
+            >
+
+            <ImageView
+
+                android:id="@+id/hurghada"
+
+
+                android:layout_width="202dp"
+                android:layout_height="272dp"
+
+
+                android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+                android:background="@drawable/hurgada"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <TextView
+                android:id="@+id/prymides1"
+                android:layout_width="216dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="170dp"
+
+
+                android:background="#99141414"
+
+                android:fontFamily="italic"
+                android:hint=" hurghada  "
+
+                android:includeFontPadding="true"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+=
+
+</ScrollView>
+
+

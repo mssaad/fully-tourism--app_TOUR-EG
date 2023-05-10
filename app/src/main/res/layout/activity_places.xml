@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Black"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="367dp"
+            android:layout_height="53dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="100dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="bold"
+            android:text="Where are you going ?  "
+
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/GhostWhite"
+            android:textSize="30sp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="401dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_search_view"
+            android:elevation="20dp"
+            android:queryHint="Search here..."
+            app:layout_constraintEnd_toStartOf="@id/guideline2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            tools:targetApi="lollipop" />
+
+        <GridLayout
+            android:layout_width="385dp"
+            android:layout_height="235dp"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:background="@color/Black"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+
+            android:rowCount="4">
+
+            <LinearLayout
+
+                android:id="@+id/place"
+                android:layout_width="167dp"
+                android:layout_height="157dp"
+                android:layout_row="0"
+
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:background="@drawable/desktop"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="179dp"
+                android:layout_height="161dp"
+                android:layout_row="0"
+                android:layout_column="1"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/okl"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/places"
+                android:layout_width="137dp"
+                android:layout_height="62dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text="pyramids"
+                android:textColor="@color/AliceBlue"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/NoarthCoast"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text="Noarth Coast"
+                android:textColor="@color/AliceBlue"
+                android:textSize="30sp" />
+
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="411dp"
+            android:layout_height="261dp"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:background="@color/Black"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+
+            android:rowCount="4">
+
+            <LinearLayout
+
+                android:layout_width="168dp"
+                android:layout_height="168dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/images"
+
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+
+                android:layout_width="186dp"
+                android:layout_height="162dp"
+                android:layout_row="0"
+                android:layout_column="1"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/maklo55555">
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="172dp"
+                android:layout_height="55dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text=" Abu simble "
+                android:textColor="@color/AliceBlue"
+                android:textColorHint="@color/Blue"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/casteltext"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text="Castel"
+                android:textColor="@color/AliceBlue"
+                android:textColorHighlight="@color/AliceBlue"
+                android:textColorHint="@color/AliceBlue"
+                android:textSize="30sp" />
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="298dp"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:background="@color/Black"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+
+            android:rowCount="4">
+
+            <LinearLayout
+
+                android:id="@+id/savj"
+                android:layout_width="166dp"
+                android:layout_height="141dp"
+                android:layout_row="0"
+
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:background="@drawable/ss"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="198dp"
+                android:layout_height="143dp"
+                android:layout_row="0"
+                android:layout_column="1"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/readsea"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/Marina"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text="Marina "
+                android:textColor="@color/AliceBlue"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/readsea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="190dp"
+                android:background="@color/Black"
+                android:text="read sea"
+                android:textColor="@color/AliceBlue"
+                android:textSize="30sp" />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

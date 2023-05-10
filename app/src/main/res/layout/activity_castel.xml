@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".castelActivity"
+    android:background="@color/White"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:id="@+id/place"
+            android:layout_width="387dp"
+            android:layout_height="339dp"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:background="@drawable/maklo55555"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/bt_uisquare"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Launch Maps"
+            android:textColor="@color/grey_200"
+            tools:ignore="InvalidId" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1416dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="The Citadel Of Saladin
+ The Citadel Of Saladin was built by Saladin El Ayouby, towards  the end of the 12th century. He was once a famous king and army leader, as well as the founder of the Ayyubid Dynasty. The Citadel has witnessed numerous historical events throughout Egyptian history
+
+For many centuries, it was the seat of the king and his government in Egypt. Many dynasties including the Ayyubids, the Mamluks, and even some Ottomans had a turn ruling over Egypt from the citadel.  Throughout different stages of Egyptian history, the citadel has always played a significant role in Egyptian politics. On some occasions, a king would rule over Cairo while another Sultan or ruler had control of the citadel. In fact, the Citadel has defended Egypt against many violent attacks throughout time.
+
+Several important monuments were built in the Citadel of Saladin during its long history. This includes the marvelous Mosque of Mohamed Ali, which is truly the best example of the Ottoman architecture in Egypt. You will also find there, the Mamluk Mosque of El Nasser Mohamed, and the small charming Mosque of Suleiman Pasha El Khadim.
+
+Today, the Citadel of Saladin is one of the most popular historical sites of Cairo and is included in almost every capital tours.
+
+Other than the mosques, the citadel hosts four more interesting museums: the Military Museum, the Police Museum, the Royal Carriages Museum, and the Qaser El Gawhara Museum.
+
+Located at the top of a high cliff, the citadel also provides tourists with magnificent views over the bustling cty of Cairo.
+
+
+
+The Reasons behind the Construction of the Citadel and its Location
+
+When Saladin took control of Egypt, with no resistance to be mentioned from the Fatimids )who ruled Egypt from the 8th till the 12th century), he decided that Cairo should have a fortified citadel to protect the city against future foreign attacks This was especially crucial during the threat of the crusaders, who were carrying military campaigns towards the Middle East during this time period.
+
+
+
+Saladin found much inspiration in the Syrian and Lebanese citadels due to how fortified and protective they were. Recognizing the importance of having such a massive citadel to protect Cairo, he sent all his resources to construct the military structure.
+
+
+
+After investigating many different locations in and around Cairo, Saladin decided to construct his citadel over the Mokatam Hill so it would overlook the whole city of Cairo and to be located at a high position that would give the occupants a strong advantage in an attack. History of its Construction
+
+
+Construction of the Citadel began in 1176, during the reign of Saladin. However, it wasn't completed until 1182 during the ruling period of Al Malek El Kamel. Al Malek el Kamel governed Egypt after Saladin and was the first king to live in the citadel.
+
+Saladin insisted a strongly fortified citadel was needed to protect the city of Cairo against all manner of threats. It was said that he destroyed some small pyramids in Giza in order to take their stones to build his citadel and its walls.  Many of the soldiers, of the army of Saladin, together with some crusaders that were captured by Saladin, worked together in the building of the citadel. It was viewed as a modern marvel of military architecture upon its completion.
+
+Saladin also dug a water well inside the citadel to be used by the soldiers if the citadel ever came under seige. This well is considered to be one of the most difficult constructions ever achieved during the 12th century. It was 90 meters deep and a true marvel, dug inside the hardest rocks of the Mokatam Mountain.
+
+Regarded as one of the most elegant fortresses to be constructed during the middle ages, the Citadel of Saladin in Cairo, with its strategic location, with a bird's eye view of the two closest cities at the time, Fustat and Cairo.
+
+Moreover, being situated between the two cities, the Citadel of Saladin functioned well as a place to retreat if Cairo was ever taken. It was the true definition of fortress. "
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
